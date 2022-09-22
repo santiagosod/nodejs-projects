@@ -30,3 +30,7 @@ values(
 select * from homeworks
 
 select * from homeworks where is_finished = true
+
+select id, to_do, date_to_do  from homeworks where to_do = 'clean house'
+
+select * from homeworks where date_to_do > '2020/07/30'
